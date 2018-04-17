@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RayTracer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="867" Width="952">
     <Grid>
-        
+        <Image HorizontalAlignment="Left" Height="600" Margin="99,10,0,0" VerticalAlignment="Top" Width="800" Name="RenderOutput"/>
+        <Button Content="Raytrace" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Btn_Press_Raytrace" Name="Btn_Raytrace"/>
+        <Button Content="Save to Disc" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" Width="75" Click="Btn_Press_SaveToDisc" Name="Btn_SaveToDisc"/>
+
     </Grid>
 </Window>
